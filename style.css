@@ -2278,7 +2278,7 @@ form .btn {
 
     padding: 30px;
 
-    border: 1px solid #ff304f;
+    border: 1px solid #b74b4b;
     border-radius: 15px;
 
     background: #090909;
@@ -2296,10 +2296,10 @@ form .btn {
 
     padding: 20px;
 
-    background: #101010;
+    background: #b74b4b;
     color: white;
 
-    border: 2px solid #ff304f;
+    border: 2px solid #b74b4b;
     outline: none;
 
     font-size: 17px;
@@ -2332,7 +2332,7 @@ form .btn {
     padding: 18px;
 
     border: none;
-    background: #ff304f;
+    background: #b74b4b;
     color: white;
 
     font-size: 20px;
@@ -2343,8 +2343,8 @@ form .btn {
 }
 
 .contact-form button:hover {
-    background: #ff173b;
-    box-shadow: 0 0 20px #ff304f;
+    background: #b74b4b;
+    box-shadow: 0 0 20px #b74b4b;
     transform: translateY(-2px);
 }
 
