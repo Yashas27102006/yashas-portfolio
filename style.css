@@ -2401,7 +2401,23 @@ form .btn {
     .contact-form textarea {
         font-size: 15px;
     }
+/* Fix horizontal overflow */
+* {
+    box-sizing: border-box;
+}
 
+html,
+body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.empty-project {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+}
     .contact-form button {
         font-size: 18px;
     }
