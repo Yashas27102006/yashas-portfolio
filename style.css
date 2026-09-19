@@ -2406,3 +2406,79 @@ form .btn {
         font-size: 18px;
     }
 }
+body {
+  margin: 0;
+  padding: 0;
+  background: #f2f2f2;
+  font-family: Arial, sans-serif;
+}
+
+.email-container {
+  max-width: 600px;
+  margin: 30px auto;
+  background: #ffffff;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid #dddddd;
+}
+
+.header {
+  background: #000000;
+  color: #ffffff;
+  padding: 25px;
+  text-align: center;
+  border-bottom: 4px solid #e50914;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 28px;
+  letter-spacing: 2px;
+}
+
+.header p {
+  margin: 8px 0 0;
+  color: #cccccc;
+}
+
+.content {
+  padding: 30px;
+}
+
+.content h2 {
+  color: #e50914;
+  margin-top: 0;
+}
+
+.info,
+.message {
+  background: #f7f7f7;
+  padding: 15px;
+  margin: 15px 0;
+  border-left: 4px solid #e50914;
+  border-radius: 6px;
+}
+
+.info p,
+.message p {
+  margin: 8px 0 0;
+  color: #333333;
+}
+
+.date {
+  color: #777777;
+  font-size: 13px;
+  margin-top: 25px;
+}
+
+.footer {
+  background: #000000;
+  color: #aaaaaa;
+  text-align: center;
+  padding: 20px;
+  font-size: 12px;
+}
+
+.footer a {
+  color: #e50914;
+}
