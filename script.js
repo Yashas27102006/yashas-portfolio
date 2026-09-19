@@ -1,8 +1,3 @@
-// EmailJS
-emailjs.init({
-    publicKey: "4UuJ22QkwVbB_20ov"
-});
-
 // Mobile menu
 const menuIcon = document.querySelector(".menu-icon");
 const nav = document.querySelector("nav");
@@ -12,18 +7,24 @@ menuIcon.addEventListener("click", () => {
 });
 
 // Contact form
-document.getElementById("contact-form").addEventListener("submit", function (event) {
-    event.preventDefault();
+emailjs.init({
+    publicKey: "4UuJ22QkwVbB_20ov"
+});
+
+document.getElementById("contact-form").addEventListener("submit", function (e) {
+    e.preventDefault();
 
     emailjs.sendForm(
         "service_mcvp67x",
         "template_pwda13t",
         this
-    ).then(() => {
+    )
+    .then(() => {
         alert("Message sent successfully!");
         this.reset();
-    }).catch((error) => {
-        alert("Failed to send message. Please try again.");
+    })
+    .catch((error) => {
         console.error(error);
+        alert("Failed to send message.");
     });
 });
