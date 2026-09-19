@@ -443,7 +443,7 @@
         <a href="https://github.com/Yashas27102006"
            target="_blank">
             <i class="fa-brands fa-github"></i>
-            <span>GitHub</span>
+            <span>github.com/Yashas27102006</span>
         </a>
 
     </div>
@@ -451,52 +451,34 @@
 
     <!-- Contact Form -->
 
-    <form
-        action="YOUR_FORMSPREE_ENDPOINT"
-        method="POST"
-        class="contact-form"
+    <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+
+    <input
+        type="text"
+        name="name"
+        placeholder="Your Name"
+        required
     >
 
-        <div class="input-box">
+    <input
+        type="email"
+        name="email"
+        placeholder="Your Email"
+        required
+    >
 
-            <input
-                type="text"
-                name="name"
-                placeholder="Your Name"
-                required
-            >
+    <textarea
+        name="message"
+        placeholder="Your Message"
+        rows="6"
+        required
+    ></textarea>
 
-        </div>
+    <button type="submit">
+        Send Message
+    </button>
 
-
-        <div class="input-box">
-
-            <input
-                type="email"
-                name="email"
-                placeholder="Your Email"
-                required
-            >
-
-        </div>
-
-
-        <div class="input-box">
-
-            <textarea
-                name="message"
-                placeholder="Your Message"
-                required
-            ></textarea>
-
-        </div>
-
-
-        <button type="submit" class="contact-btn">
-            Send Message
-        </button>
-
-    </form>
+</form>
 
 </section>
    
