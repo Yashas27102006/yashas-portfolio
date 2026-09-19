@@ -2433,3 +2433,10 @@ form .btn {
     text-align: center !important;
     margin: 0 auto 30px !important;
 }
+.projects-heading p {
+    display: block !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 auto 30px auto !important;
+    text-align: center !important;
+}
